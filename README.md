@@ -40,16 +40,16 @@ The final algorithm implements the random hop portion of the encryption. The hop
 
 The first issue we encountered was implementing rounds on the first milestone. In the first milestone, rounds equals zero, so attempting to implement it threw off the index of gPasswordHash. Another issue was encountered when attempting to nibble rotate left. There was trouble when trying to isolate and test the nibbles but this was fixed by isolating the nibbles with the AND instruction and using the SHL or SHR and testing that shifted bit. Our final issue occurred on the decryption of milestone #3. Instead of decrypting the file in the reverse round order, we were still doing it in the normal order (i.e. we needed rounds to be 3,2,1,0 instead of 0,1,2,3).
 
-###### Group Member Contributions:
+## Group Member Contributions:
 
 Austin Thrash: Majority of code writing, commenting out code, report writeup.
 Jude Nelson: Testing, validation, report writeup, turn-ins, and little code writing
 Nick Sevilla: None
 
-###### Group Issues and Resolutions:
+## Group Issues and Resolutions:
 
 One of our group members, Nick Sevilla, did not contribute.
 
-###### Conclusion:
+## Conclusion:
 
 The project was fun overall! It’s great when a project demonstrates how something works in the real-world even if it isn’t something you’ll likely code directly in the future. The knowledge of how encryption functions can be applied to a wide variety of other projects even if not directly related.
