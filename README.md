@@ -46,7 +46,7 @@ Austin Thrash: Majority of code writing, commenting out code, report writeup.
 Jude Nelson: Testing, validation, report writeup, turn-ins, and little code writing
 Nick Sevilla: None
 
-## Group Issues and Resolutions:
+###### Group Issues and Resolutions:
 
 One of our group members, Nick Sevilla, did not contribute.
 
